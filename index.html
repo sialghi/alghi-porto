@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayhan Al Ghiffari Supriyatna | Portfolio</title>
+    <meta name="description" content="Portfolio of Rayhan Al Ghiffari Supriyatna — Data Specialist, AI & ML Enthusiast, and Full-Stack Developer based in Jakarta, Indonesia.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <h1 class="logo">Al Ghiffari<span>.</span></h1>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <span id="theme-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="fade-in">
+        <div class="hero-inner">
+            <div class="hero-left">
+                <div class="hero-tag">Open to Opportunities</div>
+                <h1 class="hero-name">Rayhan Al Ghiffari S.</h1>
+                <p class="hero-title">Data Specialist &amp; Software Developer</p>
+                <p class="hero-summary">
+                    Informatics Engineering student with hands-on experience in data analytics, AI/ML development, and full-stack web systems. Skilled at turning complex data into actionable insights and building scalable applications for institutional use.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn outline-btn">Get in Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="hero-stat-card">
+                    <div class="hero-stat-number">Data · AI · Web</div>
+                    <div class="hero-stat-label">Domains of Work</div>
+                    <div class="hero-stat-desc">Data analytics, AI/ML development, and full-stack web systems — built for real institutional use.</div>
+                </div>
+                <div class="hero-stat-card">
+                    <div class="hero-stat-number">11+</div>
+                    <div class="hero-stat-label">Projects</div>
+                    <div class="hero-stat-desc">Production & research</div>
+                </div>
+                <div class="hero-stat-card">
+                    <div class="hero-stat-number">2</div>
+                    <div class="hero-stat-label">Internships</div>
+                    <div class="hero-stat-desc">Industry experience</div>
+                </div>
+                <div class="hero-stat-card">
+                    <div class="hero-stat-number">3</div>
+                    <div class="hero-stat-label">Leadership Roles</div>
+                    <div class="hero-stat-desc">Organizational leadership</div>
+                </div>
+                <div class="hero-stat-card">
+                    <div class="hero-stat-number">UIN</div>
+                    <div class="hero-stat-label">Jakarta</div>
+                    <div class="hero-stat-desc">Informatics Engineering</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section-padding fade-in">
+        <div class="skills-inner">
+            <div class="skills-header">
+                <span class="section-label">Capabilities</span>
+                <h2 class="section-title">Skills &amp; Tech Stack</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Tools and technologies I use to build, analyze, and deliver data-driven and software solutions.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category-card">
+                    <div class="skill-category-title">Data &amp; Analytics</div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">SQL Query</span>
+                        <span class="skill-pill">Pandas</span>
+                        <span class="skill-pill">Tableau</span>
+                        <span class="skill-pill">Power BI</span>
+                        <span class="skill-pill">Looker Studio</span>
+                        <span class="skill-pill">Excel Advanced</span>
+                    </div>
+                </div>
+
+                <div class="skill-category-card">
+                    <div class="skill-category-title">Web Development</div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Laravel</span>
+                        <span class="skill-pill">PHP</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">HTML</span>
+                        <span class="skill-pill">CSS</span>
+                        <span class="skill-pill">Bootstrap 5</span>
+                        <span class="skill-pill">Streamlit</span>
+                    </div>
+                </div>
+
+                <div class="skill-category-card">
+                    <div class="skill-category-title">Tools &amp; Platform</div>
+                    <div class="skill-list">
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">Docker</span>
+                        <span class="skill-pill">MySQL</span>
+                        <span class="skill-pill">PostgreSQL</span>
+                        <span class="skill-pill">LangChain</span>
+                        <span class="skill-pill">GROQ API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section-padding fade-in">
+        <div class="projects-inner">
+            <div class="projects-header">
+                <span class="section-label">Work</span>
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">A curated selection of projects spanning AI, data analytics, and full-stack web development.</p>
+            </div>
+
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="data">Data Analytics</button>
+                <button class="filter-btn" data-filter="software">Software Engineering</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+            </div>
+
+            <div class="project-grid">
+
+                <div class="project-card" data-category="ai">
+                    <img class="project-thumbnail" src="assets/img-chatbot.png" alt="Chatbot RAG AD ART ORMAWA" loading="lazy">
+                    <div class="project-body">
+                        <h3>Chatbot RAG AD ART ORMAWA</h3>
+                        <p>AI Chatbot to help student organizations understand the AD ART regulations of UIN Jakarta through natural language queries.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Streamlit</span><span>LangChain</span><span>GROQ API</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-4">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="software">
+                    <img class="project-thumbnail" src="assets/img-fst.png" alt="Layanan FST UIN Jakarta Analytics Dashboard" loading="lazy">
+                    <div class="project-body">
+                        <h3>Layanan FST UIN Jakarta — Academic Analytics Dashboard</h3>
+                        <p>Real-time faculty dashboard to monitor thesis completion progress, supervisor load distribution, and graduation status.</p>
+                        <div class="tags">
+                            <span>Laravel 10</span><span>PHP 8.2</span><span>Bootstrap 5</span><span>JS</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-5">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="software">
+                    <img class="project-thumbnail" src="assets/img-obe.png" alt="Layanan OBE FST UIN Jakarta Activity Credit Conversion" loading="lazy">
+                    <div class="project-body">
+                        <h3>Layanan OBE FST UIN Jakarta — Activity &amp; Credit Conversion</h3>
+                        <p>MBKM activity recognition system allowing students to convert off-campus activities into academic credits via approval workflow.</p>
+                        <div class="tags">
+                            <span>Laravel 12</span><span>PHP 8.4</span><span>MySQL</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-6">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ai">
+                    <img class="project-thumbnail" src="assets/img-sentiment.png" alt="Sentiment Analysis Tokopedia COD" loading="lazy">
+                    <div class="project-body">
+                        <h3>Sentiment Analysis: Tokopedia COD</h3>
+                        <p>End-to-end NLP pipeline to scrape, clean, and classify 1,477 user reviews using an optimized SVM model with SMOTE balancing.</p>
+                        <div class="tags">
+                            <span>Python</span><span>NLP</span><span>SVM</span><span>Streamlit</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-1">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="data">
+                    <img class="project-thumbnail" src="assets/img-tracer.png" alt="Tracer Study Dashboard UIN Jakarta" loading="lazy">
+                    <div class="project-body">
+                        <h3>Tracer Study Dashboard</h3>
+                        <p>Comprehensive BI dashboard visualizing 3,299 alumni survey responses across 13 faculties, delivered to the UIN Jakarta rector.</p>
+                        <div class="tags">
+                            <span>Tableau</span><span>Looker Studio</span><span>Google Sheets</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-2">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ai">
+                    <img class="project-thumbnail" src="assets/img-clustering.png" alt="Country Clustering for Financial Aid" loading="lazy">
+                    <div class="project-body">
+                        <h3>Country Clustering for Financial Aid</h3>
+                        <p>Applied K-Means clustering to demographic and economic data to identify countries in urgent need of humanitarian assistance.</p>
+                        <div class="tags">
+                            <span>Data Science</span><span>K-Means</span><span>Pandas</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-3">View Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="data">
+                    <img class="project-thumbnail" src="assets/img-sales-dashboard.png" alt="Interactive Sales Dashboard Excel" loading="lazy">
+                    <div class="project-body">
+                        <h3>Interactive Sales Dashboard</h3>
+                        <p>Excel dashboard analyzing $212K+ in sales across 3 cities, 6 product categories, and 3 payment methods — featuring dynamic slicers, monthly trend lines, and KPI summaries.</p>
+                        <div class="tags">
+                            <span>Microsoft Excel</span><span>Data Visualization</span><span>Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="data">
+                    <img class="project-thumbnail" src="assets/img-wisata-dashboard.png" alt="Interactive Wisata Indonesia Dashboard Excel" loading="lazy">
+                    <div class="project-body">
+                        <h3>Interactive Wisata Indonesia Dashboard</h3>
+                        <p>Excel dashboard visualizing Rp 42.7B+ in tourism revenue across Indonesian provinces, tracking visitor preferences by category, rating, and generational segment with dynamic filters.</p>
+                        <div class="tags">
+                            <span>Microsoft Excel</span><span>Data Visualization</span><span>Dashboard</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="software">
+                    <img class="project-thumbnail" src="assets/img-tracer-web.png" alt="Tracer Study UINJKT Web App" loading="lazy">
+                    <div class="project-body">
+                        <h3>Tracer Study UINJKT</h3>
+                        <p>Full-stack alumni tracking system for UIN Jakarta with alumni registration, survey management, admin approval workflow, and K-Means clustering analysis on alumni data.</p>
+                        <div class="tags">
+                            <span>Laravel</span><span>PHP</span><span>Tailwind CSS</span><span>MySQL</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-7">View Details</button>
+                    </div>
+                </div>
+                <div class="project-card" data-category="data">
+                    <img class="project-thumbnail" src="assets/img-satisfaction-index.png" alt="Satisfaction Index Dashboard" loading="lazy">
+                    <div class="project-body">
+                        <h3>Satisfaction Index Dashboard</h3>
+                        <p>Comprehensive BI dashboard measuring event satisfaction index for Pusat Karier UIN Jakarta. Analyzes responses from 555 participants across 5 core indicators.</p>
+                        <div class="tags">
+                            <span>Tableau</span><span>Looker Studio</span><span>Spreadsheets</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-8">View Details</button>
+                    </div>
+                </div>
+                <div class="project-card" data-category="software">
+                    <img class="project-thumbnail" src="assets/img-epub.png" alt="ePub Library UIN" loading="lazy">
+                    <div class="project-body">
+                        <h3>ePub Library UIN</h3>
+                        <p>Web-based digital library app for reading ePub files. Features an integrated e-reader, persistent text highlighting, cross-language translation via API, and book uploading.</p>
+                        <div class="tags">
+                            <span>Node.js</span><span>Express</span><span>JavaScript</span><span>epub.js</span>
+                        </div>
+                        <button class="btn outline-btn open-modal-btn" data-modal="modal-9">View Details</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MODALS ===== -->
+
+    <div id="modal-9" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-epub.png" alt="ePub Library UIN">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>ePub Library UIN</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Node.js</span><span>Express</span><span>JavaScript</span><span>epub.js</span>
+                </div>
+                <p><strong>Overview:</strong> A full-stack web application serving as a digital library for `.epub` format e-books. Built to provide a rich reading experience directly in the browser without additional software.</p>
+                <p><strong>Features:</strong> Integrated e-Reader (via epub.js) with Table of Contents (TOC), persistent text highlighting saved to the backend via CFI coordinates, cross-language text translation using MyMemory API, and a custom book upload dashboard.</p>
+                <p><strong>Technical Impact:</strong> Built a Node.js/Express backend utilizing Multer for local file storage and a JSON-based database for managing user accounts, books metadata, and highlight data. Implemented Dark Mode and multi-language UI.</p>
+                <div class="modal-links">
+                    <a href="https://github.com/sialghi/epub-pbp.git" target="_blank" class="btn outline-btn">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-8" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-satisfaction-index.png" alt="Satisfaction Index Dashboard">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Satisfaction Index Dashboard — Pusat Karier UIN Jakarta</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Tableau</span><span>Looker Studio</span><span>Spreadsheets</span><span>Data Viz</span>
+                </div>
+                <p><strong>Overview:</strong> Interactive visualization analyzing the satisfaction index of career center events. The dashboard tracks feedback from 555 participants across 5 dimensions: Assurance, Empathy, Responsiveness, Reliability, and Tangibles, yielding an overall satisfaction score of 3.7 out of 4.</p>
+                <p><strong>Technical Impact:</strong> Processed raw survey data using Spreadsheets and built automated visualizations using Looker Studio and Tableau to monitor participation demographics, temporal trends, and qualitative feedback.</p>
+                <div class="modal-links">
+                    <button class="btn outline-btn" disabled>Internal Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-7" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-tracer-web.png" alt="Tracer Study UINJKT Web App">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Tracer Study UINJKT</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Laravel</span><span>PHP</span><span>Tailwind CSS</span><span>Vite</span><span>MySQL</span>
+                </div>
+                <p><strong>Overview:</strong> Full-stack alumni information system for UIN Syarif Hidayatullah Jakarta, built as an academic project. Designed to track alumni career paths, manage graduate data, and conduct surveys to support institutional evaluation and accreditation needs.</p>
+                <p><strong>Alumni Features:</strong> Account registration &amp; authentication, self-service profile management with completeness tracking, and active survey submission.</p>
+                <p><strong>Admin Features:</strong> Alumni registration approval workflow, study program management, full CRUD on alumni data, survey form builder, and a clustering analysis dashboard to segment alumni survey results using K-Means.</p>
+                <div class="modal-links">
+                    <a href="https://github.com/sialghi/Tracer-Study-UINJKT-Project1.git" target="_blank" class="btn outline-btn">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-8" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-satisfaction-index.png" alt="Satisfaction Index Dashboard">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Satisfaction Index Dashboard — Pusat Karier UIN Jakarta</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Tableau</span><span>Looker Studio</span><span>Spreadsheets</span><span>Data Viz</span>
+                </div>
+                <p><strong>Overview:</strong> Interactive visualization analyzing the satisfaction index of career center events. The dashboard tracks feedback from 555 participants across 5 dimensions: Assurance, Empathy, Responsiveness, Reliability, and Tangibles, yielding an overall satisfaction score of 3.7 out of 4.</p>
+                <p><strong>Technical Impact:</strong> Processed raw survey data using Spreadsheets and built automated visualizations using Looker Studio and Tableau to monitor participation demographics, temporal trends, and qualitative feedback.</p>
+                <div class="modal-links">
+                    <button class="btn outline-btn" disabled>Internal Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-1" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-sentiment.png" alt="Sentiment Analysis Tokopedia COD">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>End-to-End Sentiment Analysis: Tokopedia COD</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Python</span><span>Scikit-Learn</span><span>NLP</span><span>Streamlit</span>
+                </div>
+                <p><strong>Overview:</strong> Analyzes customer satisfaction regarding Tokopedia's Cash on Delivery (COD) feature by processing 1,477 user reviews scraped from the Google Play Store.</p>
+                <p><strong>Technical Impact:</strong> Applied customized text preprocessing for informal Indonesian slang and resolved high class imbalance using SMOTE. Trained an SVM model with a Linear Kernel, achieving a 73.66% classification accuracy.</p>
+                <div class="modal-links">
+                    <a href="https://huggingface.co/sialghi/sentimen-analyst-tokped-cod" target="_blank" class="btn primary-btn">View Live App</a>
+                    <a href="https://github.com/sialghi/sentiment-analysis-tokped-cod" target="_blank" class="btn outline-btn">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-2" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-tracer.png" alt="Tracer Study Dashboard">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Tracer Study Dashboard — UIN Jakarta 2025</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Tableau</span><span>Looker Studio</span><span>Google Sheets</span><span>Data Viz</span>
+                </div>
+                <p><strong>Overview:</strong> Comprehensive visualization of Tracer Study data from 3,299 alumni respondents across 13 faculties and 79 study programs at UIN Jakarta, delivered directly to the Rector.</p>
+                <p><strong>Technical Impact:</strong> Designed monitoring sheets using complex formula logic (IF, ISERROR, COUNTIF, QUERY). Built separate dashboards for UIN Jakarta (rector-level) and Faculty of Science &amp; Technology. Visualized key metrics including study duration distribution, GPA spread, and alumni employment status.</p>
+                <div class="modal-links">
+                    <button class="btn outline-btn" disabled>Internal Dashboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-3" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-clustering.png" alt="Country Clustering for Financial Aid">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Country Clustering for Financial Assistance</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Python</span><span>K-Means</span><span>Matplotlib</span><span>Pandas</span>
+                </div>
+                <p><strong>Overview:</strong> Final project for the SanberCode Data Science Bootcamp. Categorizes countries based on socio-economic and health factors to prioritize humanitarian financial aid distribution.</p>
+                <p><strong>Technical Impact:</strong> Performed EDA and utilized the Elbow method to determine optimal cluster count. Applied K-Means to successfully group countries into actionable tiers for hypothetical NGO resource allocation.</p>
+                <div class="modal-links">
+                    <a href="#" class="btn outline-btn">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-4" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-chatbot.png" alt="Chatbot RAG AD ART ORMAWA">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Chatbot RAG AD ART ORMAWA</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Python</span><span>Streamlit</span><span>LangChain</span><span>GROQ API</span>
+                </div>
+                <p><strong>Overview:</strong> AI Chatbot based on Retrieval-Augmented Generation (RAG) to help student organization members understand the Anggaran Dasar and Anggaran Rumah Tangga (AD ART) rules of UIN Syarif Hidayatullah Jakarta through natural language queries.</p>
+                <p><strong>Technical Impact:</strong> Sole creator and concept designer from start to finish. Built a RAG pipeline using LangChain integrated with a large language model via GROQ API. Interactive interface developed using Streamlit and deployed publicly.</p>
+                <div class="modal-links">
+                    <a href="https://rag-ad-art-ormawa-kelompok3.streamlit.app/" target="_blank" class="btn primary-btn">View Live App</a>
+                    <a href="https://github.com/sialghi/rag-ad-art-ormawa/" target="_blank" class="btn outline-btn">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-5" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-fst.png" alt="Layanan FST UIN Jakarta Analytics Dashboard">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Layanan FST UIN Jakarta — Academic Analytics Dashboard</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Laravel 10</span><span>PHP 8.2</span><span>Bootstrap 5</span><span>AdminLTE</span><span>JS</span>
+                </div>
+                <p><strong>Overview:</strong> Designed and implemented an "Executive Analytics Dashboard" providing a helicopter view for Faculty and Study Program Admins to monitor thesis completion progress, supervisor load distribution, and student graduation status in real-time.</p>
+                <p><strong>Technical Impact:</strong> Built optimized backend query architecture with Laravel 10 (Eloquent ORM) to process thousands of transactional logs. Developed interactive data visualizations (Line, Pie, Stacked Bar Charts). Added drill-down monitoring tables, automated document generation (.docx via PhpWord TemplateProcessor), and Excel export functionality.</p>
+                <div class="modal-links">
+                    <a href="https://layanan-fst.uinjakarta.id/" target="_blank" class="btn primary-btn">View Live App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-6" class="modal">
+        <div class="modal-content">
+            <img class="modal-image" src="assets/img-obe.png" alt="Layanan OBE FST UIN Jakarta Activity Credit Conversion">
+            <div class="modal-body">
+                <div class="modal-header-row">
+                    <h2>Layanan OBE FST UIN Jakarta — Activity &amp; Credit Conversion</h2>
+                    <span class="close-btn">&times;</span>
+                </div>
+                <div class="modal-tags">
+                    <span>Laravel 12</span><span>PHP 8.4</span><span>MySQL</span><span>Service Pattern</span>
+                </div>
+                <p><strong>Overview:</strong> Implemented a feature enabling students to claim MBKM off-campus activities and convert them into academic credits mapped against Graduate Learning Outcomes (CPL) and Course Outcomes (CPMK).</p>
+                <p><strong>Technical Impact:</strong> Developed a complex multi-step form wizard with premium responsive UI/UX. Built a scalable backend architecture with Laravel 12 applying Service Pattern for an approval state machine between students and the Head of Study Program. Engineered relational MySQL database integrating dynamic curriculum data with conversion request entities.</p>
+                <div class="modal-links">
+                    <a href="https://layanan-obe.uinjakarta.id/" target="_blank" class="btn primary-btn">View Live App</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience" class="section-padding fade-in">
+        <div class="experience-inner">
+            <div class="experience-header">
+                <span class="section-label">Career</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>IT Development System Intern — Data Annotate</h3>
+                        <h4>PT Transportasi Jakarta (Transjakarta)</h4>
+                        <span class="date">Mar 2026 – Present</span>
+                        <ul>
+                            <li>Performed high-precision image and video data annotation using Computer Vision Annotation Tool (CVAT) to build robust datasets for machine learning models.</li>
+                            <li>Monitored and validated real-time passenger tap-in and tap-out data streams across high-traffic stations to ensure system accuracy and support crowd traffic analytics.</li>
+                            <li>Conducted quality control on annotated datasets to maintain high standards for computer vision algorithm training.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data Specialist Intern</h3>
+                        <h4>Pusat Karier UIN Syarif Hidayatullah Jakarta</h4>
+                        <span class="date">Dec 2024 – Jul 2025</span>
+                        <ul>
+                            <li>Led the Data Specialist division and managed the Blasting Form process distributed to alumni of the Faculty of Science and Technology.</li>
+                            <li>Built Tracer Study monitoring sheets using advanced formula logic (IF, ISERROR, COUNTIF, QUERY, etc.) in Excel and Google Sheets.</li>
+                            <li>Designed and delivered the UIN Jakarta Tracer Study Dashboard presented directly to the Rector.</li>
+                            <li>Created a dedicated Tracer Study visualization dashboard for the Faculty of Science and Technology.</li>
+                            <li>Developed comprehensive data visualizations using Tableau and Looker Studio to track program satisfaction indices.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LEADERSHIP ===== -->
+    <section id="leadership" class="section-padding fade-in">
+        <div class="experience-inner">
+            <div class="experience-header">
+                <span class="section-label">Organization</span>
+                <h2 class="section-title">Leadership Experience</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>President</h3>
+                        <h4>Himpunan Mahasiswa Teknik Informatika (HIMTI) UIN Jakarta</h4>
+                        <span class="date">Jul 2025 – Jul 2026</span>
+                        <ul>
+                            <li>Initiated 6 new departments, 14 divisions, and 101 members in HIMTI UIN Jakarta.</li>
+                            <li>Coordinated cross-functional divisions and work programs, ensuring impactful execution and strategic alignment.</li>
+                            <li>Represented Informatics Engineering students in internal and external campus forums.</li>
+                            <li>Established communication strategies with faculty, student organizations, and external partners.</li>
+                            <li>Created an organizational environment conducive to the academic and soft skills development of members.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Head of Data Specialist Division</h3>
+                        <h4>Pusat Karier UIN Syarif Hidayatullah Jakarta</h4>
+                        <span class="date">Dec 2024 – Jul 2025</span>
+                        <ul>
+                            <li>Directed a division of 9 members, delegating tasks and ensuring data quality standards were consistently met across all deliverables.</li>
+                            <li>Established SOPs and standardized workflows for data collection, transformation, and visualization processes.</li>
+                            <li>Made key technical decisions on tools and methodologies adopted by the division (Excel, Google Sheets, Tableau, Looker Studio).</li>
+                            <li>Acted as the primary liaison between the Data Specialist division and other units as well as senior management.</li>
+                            <li>Recruited and selected new division members; conducted onboarding and technical capability assessments.</li>
+                            <li>Delivered a technical training session as a speaker at the internal Tracer Study Workshop.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Head of Organizing Committee</h3>
+                        <h4>PBAK Teknik Informatika 2024 — UIN Jakarta</h4>
+                        <span class="date">Jul 2024 – Aug 2024</span>
+                        <ul>
+                            <li>Led a committee of 80+ members for the Informatics Engineering New Student Orientation 2024, overseeing end-to-end event execution.</li>
+                            <li>Conceptualized the event framework around four core principles: integrative, adaptive, relevant, and efficient.</li>
+                            <li>Designed and delivered 5 original sub-event concepts — Sapa Wisudawan and Gathering 1–4 — executed prior to the main event day.</li>
+                            <li>Managed data collection and processing of 140+ new student records using Microsoft Office tools.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section-padding fade-in">
+        <div class="contact-inner">
+            <div class="contact-box">
+                <div>
+                    <h2>Let's Work Together</h2>
+                    <p>I am currently open to data, software development, and analytics roles. Feel free to reach out for collaborations or opportunities.</p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:rayhanalghiffar18@gmail.com" class="btn">Email Me</a>
+                    <a href="http://linkedin.com/in/sialghi" target="_blank" class="btn">LinkedIn</a>
+                    <a href="https://github.com/sialghi" target="_blank" class="btn">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Rayhan Al Ghiffari Supriyatna. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
