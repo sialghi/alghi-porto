@@ -385,9 +385,8 @@ h1, h2, h3, h4 {
   box-shadow: var(--shadow-md);
 }
 
-/* First card spans full width */
+/* First card styling */
 .hero-stat-card:first-child {
-  grid-column: 1 / -1;
   background-color: var(--accent);
   border-color: var(--accent);
   color: #fff;
