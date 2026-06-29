@@ -969,10 +969,6 @@ footer p {
     gap: 48px;
   }
 
-  .hero-right {
-    max-width: 480px;
-  }
-
   .skills-grid {
     grid-template-columns: 1fr 1fr;
   }
