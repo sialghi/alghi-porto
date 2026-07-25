@@ -147,12 +147,12 @@
             <div class="project-grid">
 
                 <div class="project-card" data-category="ai">
-                    <img class="project-thumbnail" src="assets/img-chatbot.png" alt="Chatbot RAG AD ART ORMAWA" loading="lazy">
+                    <img class="project-thumbnail" src="assets/img-chatbot.png" alt="Agora Chatbot - RAG-based Legal & Organizational Assistant" loading="lazy">
                     <div class="project-body">
-                        <h3>Chatbot RAG AD ART ORMAWA</h3>
-                        <p>AI Chatbot to help student organizations understand the AD ART regulations of UIN Jakarta through natural language queries.</p>
+                        <h3>Agora Chatbot - RAG-based Legal & Organizational Assistant</h3>
+                        <p>RAG-based AI Chatbot designed to help student organizations understand complex constitutional documents at UIN Jakarta using natural language.</p>
                         <div class="tags">
-                            <span>Python</span><span>Streamlit</span><span>LangChain</span><span>GROQ API</span>
+                            <span>LangChain</span><span>Streamlit</span><span>Groq API</span><span>HuggingFace</span><span>FAISS</span>
                         </div>
                         <button class="btn outline-btn open-modal-btn" data-modal="modal-4">View Details</button>
                     </div>
@@ -424,17 +424,24 @@
 
     <div id="modal-4" class="modal">
         <div class="modal-content">
-            <img class="modal-image" src="assets/img-chatbot.png" alt="Chatbot RAG AD ART ORMAWA">
+            <img class="modal-image" src="assets/img-chatbot.png" alt="Agora Chatbot - RAG-based Legal & Organizational Assistant">
             <div class="modal-body">
                 <div class="modal-header-row">
-                    <h2>Chatbot RAG AD ART ORMAWA</h2>
+                    <h2>Agora Chatbot - RAG-based Legal & Organizational Assistant</h2>
                     <span class="close-btn">&times;</span>
                 </div>
                 <div class="modal-tags">
-                    <span>Python</span><span>Streamlit</span><span>LangChain</span><span>GROQ API</span>
+                    <span>LangChain</span><span>Streamlit</span><span>Groq API</span><span>HuggingFace</span><span>FAISS</span>
                 </div>
-                <p><strong>Overview:</strong> AI Chatbot based on Retrieval-Augmented Generation (RAG) to help student organization members understand the Anggaran Dasar and Anggaran Rumah Tangga (AD ART) rules of UIN Syarif Hidayatullah Jakarta through natural language queries.</p>
-                <p><strong>Technical Impact:</strong> Sole creator and concept designer from start to finish. Built a RAG pipeline using LangChain integrated with a large language model via GROQ API. Interactive interface developed using Streamlit and deployed publicly.</p>
+                <p><strong>Overview:</strong> AI Chatbot based on Retrieval-Augmented Generation (RAG) designed to help student organization members understand complex constitutional documents (AD/ART, Pedoman Organisasi, PRT HIMTI) at UIN Syarif Hidayatullah Jakarta through natural language queries, effectively preventing AI hallucinations on strict legal guidelines.</p>
+                <p><strong>Technical Impact:</strong><br>
+                • <strong>End-to-end Development:</strong> Acted as the sole creator and concept designer, managing the project lifecycle from data ingestion to public deployment.<br>
+                • <strong>RAG Pipeline Engineering:</strong> Developed a robust document retrieval system using FAISS for fast similarity search and HuggingFace embeddings to convert unstructured PDF documents into queryable vector spaces.<br>
+                • <strong>LLM Orchestration:</strong> Integrated multiple large language models via the Groq API to achieve ultra-fast inference speeds.<br>
+                • <strong>UI/UX Implementation:</strong> Built an interactive, ChatGPT-like conversational interface using Streamlit, complete with dynamic model-switching and chat history management.</p>
+                <p><strong>Research &amp; Evaluation:</strong><br>
+                • <strong>Quantitative Evaluation:</strong> Conducted independent benchmarking of the RAG pipeline using ROUGE-L metrics against a custom Ground Truth dataset (20 expert-verified Q&amp;A pairs).<br>
+                • <strong>Key Findings:</strong> Demonstrated that smaller, efficient models like Llama-3.1-8B (F1 Score: ~0.42) outperformed larger models (Llama-3.3-70B) on strict retrieval tasks by providing high-precision, exact-match contextual answers without excessive paraphrasing.</p>
                 <div class="modal-links">
                     <a href="https://rag-ad-art-ormawa-kelompok3.streamlit.app/" target="_blank" class="btn primary-btn">View Live App</a>
                     <a href="https://github.com/sialghi/rag-ad-art-ormawa/" target="_blank" class="btn outline-btn">GitHub Repo</a>
